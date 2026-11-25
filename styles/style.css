@@ -3,7 +3,7 @@ body {
     background-image: url('../images/bg.png');
     background-repeat: repeat;
     background-size: 150px 150px;
-    animation: scrollDiagonal 20s linear infinite;
+  animation: scrollDiagonal 20s linear infinite;
 }
 
 @keyframes scrollDiagonal {
