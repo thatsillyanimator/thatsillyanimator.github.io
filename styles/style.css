@@ -1,6 +1,19 @@
 body {
-    background-color: blueviolet;
     margin: 0;
+    background-image: url(/images/bg.png);
+    background-repeat: repeat;
+    background-size: 150px 150px;
+  animation: scrollDiagonal 20s linear infinite;
+}
+
+@keyframes scrollDiagonal {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    /* Match the exact pixel values of background-size */
+    background-position: 300px 300px; 
+  }
 }
 
 .text-box {
@@ -28,6 +41,6 @@ hr {
 }
 
 header {
-    background-color: purple;
+    background-color: rgb(134, 0, 175);
     display: flow-root;
 }
